@@ -730,3 +730,22 @@ JavaScript warning: https://pagead2.googlesyndication.com/bg/dMUMwKlHRkKFxm324gu
 1662560012064	Marionette	INFO	Stopped listening on port 58797
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1662560796199	geckodriver	INFO	Listening on 127.0.0.1:62107
+1662560796623	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "62108" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/57/n3qr69pj31qdtbzplhrrx_1w0000gn/T/rust_mozprofilek1Hmd8"
+*** You are running in headless mode.
+2022-09-07 15:26:36.941 plugin-container[95462:11762734] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-07 15:26:36.941 plugin-container[95462:11762734] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-07 15:26:36.953 plugin-container[95462:11762734] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-07 15:26:36.953 plugin-container[95462:11762734] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-07 15:26:36.953 plugin-container[95462:11762758] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-07 15:26:36.954 plugin-container[95462:11762758] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1662560796961	Marionette	INFO	Marionette enabled
+1662560796985	Marionette	INFO	Listening on port 62119
+WebDriver BiDi listening on ws://localhost:62108
+Read port: 62119
+1662560797153	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/57/n3qr69pj31qdtbzplhrrx_1w0000gn/T/rust_mozprofilek1Hmd8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62108/devtools/browser/f0df6925-2dd9-4fcf-a8b2-deb2db08c2d8
+1662560799768	Marionette	INFO	Stopped listening on port 62119
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 60: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
