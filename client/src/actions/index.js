@@ -166,3 +166,24 @@ export const errorMesage = (message) => {
     }
 }
 
+
+export const addToPlaylist = ({ id, title, artist, albumArtUrl, album }) => {
+  const newSong = { id, title, artist, albumArtUrl, album };
+  return {
+    type: "ADD_TO_PLAYLIST",
+    payload: newSong,
+  };
+};
+
+export const removeSong = (id) => {
+  return {
+    type: "REMOVE_SONG",
+    payload: id,
+  };
+};
+
+export const clearPlaylist = () => {
+  return {
+    type: "CLEAR_PLAYLIST",
+  };
+};
